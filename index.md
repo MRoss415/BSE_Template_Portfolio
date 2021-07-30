@@ -21,3 +21,48 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 My first milestone was establishing the sun traking system for the solar panel. I began by posisitioning two photoresistors on opposite ends of a breadboard connected to an Arduino, and connecting a servo to that. I then wrote up some code in C++ that monitors the output values from both photoresistors so that if one rises above the other, the servo will activate until both values are equal again. This will result with the solar panel continuously tracking the sun.
 
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
+
+# Circuit Diagram
+![SunTrackerCircuitDiagram](https://user-images.githubusercontent.com/88206259/127694933-1066e222-f0d3-40d6-a2e3-3bad213a5b66.jpg)
+
+# Sun Tracking Code
+```arduino
+#include <Servo.h>
+Servo myservo;
+
+const int pResistor1 = A0;
+const int pResistor2 = A1;
+
+int deg;
+int value1;
+int value2;
+
+void setup() {
+  // put your setup code here, to run once:
+  myservo.attach(9);
+  pinMode(pResistor1, INPUT);
+  pinMode(pResistor2, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  value1 = analogRead(pResistor1);
+  value2 = analogRead(pResistor2);
+  Serial.print("pResistor1 ");
+  Serial.println(value1);
+  Serial.print("pResistor2 ");
+  Serial.println(value2);
+
+  deg = 0;
+  if (value1 > value2 && deg <= 180) {
+    deg = deg + 1;
+    myservo.write(deg);
+  }
+  if (value1 < value2 && deg >= 0) {
+    deg = deg - 1;
+    myservo.write(deg);
+  }
+  delay(500);
+}
+```
