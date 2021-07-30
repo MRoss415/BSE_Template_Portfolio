@@ -3,7 +3,7 @@ The goal of this project is to make a sustainable generator and power bank that 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Michael Ross | Marin Academy | Physics, Mechanical/Electrical Engineering | Incoming Senior
+| Michael R | Marin Academy | Physics, Mechanical/Electrical Engineering | Incoming Senior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
@@ -19,7 +19,5 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # First Milestone
   
 My first milestone was establishing the sun traking system for the solar panel. I began by posisitioning two photoresistors on opposite ends of a breadboard connected to an Arduino, and connecting a servo to that. I then wrote up some code in C++ that monitors the output values from both photoresistors so that if one rises above the other, the servo will activate until both values are equal again. This will result with the solar panel continuously tracking the sun.
-
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
 
 [![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
