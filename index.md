@@ -20,7 +20,7 @@ My second milestone was the completion of my solar panel circuit. The circuit co
   
 My first milestone was establishing the sun traking system for the solar panel. I began by posisitioning two photoresistors on opposite ends of a breadboard connected to an Arduino, and connecting a servo to that. I then wrote up some code in C++ that monitors the output values from both photoresistors so that if one rises above the other, the servo will activate until both values are equal again. This will result with the solar panel continuously tracking the sun.
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
+[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=3npqKn-eHq0 "First Milestone"){:target="_blank" rel="noopener"}
 
 # Circuit Diagram
 ![SunTrackerCircuitDiagram](https://user-images.githubusercontent.com/88206259/127694933-1066e222-f0d3-40d6-a2e3-3bad213a5b66.jpg)
