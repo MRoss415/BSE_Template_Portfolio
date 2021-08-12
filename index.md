@@ -40,29 +40,33 @@ int value2;
 void setup() {
   // put your setup code here, to run once:
   myservo.attach(9);
+  myservo.write(90);
+  deg = 90;
+  myservo.write(deg);
   pinMode(pResistor1, INPUT);
   pinMode(pResistor2, INPUT);
   Serial.begin(9600);
-}
+} 
 
 void loop() {
   // put your main code here, to run repeatedly:
   value1 = analogRead(pResistor1);
   value2 = analogRead(pResistor2);
-  Serial.print("pResistor1 ");
-  Serial.println(value1);
-  Serial.print("pResistor2 ");
-  Serial.println(value2);
+    //Serial.print("pResistor1 ");
+    //Serial.println(value1);
+    //Serial.print("pResistor2 ");
+    //Serial.println(value2);
 
-  deg = 0;
-  if (value1 > value2 && deg <= 180) {
-    deg = deg + 1;
+  if (value1 > value2 && deg < 180) {
+    deg = deg + 15;
     myservo.write(deg);
   }
-  if (value1 < value2 && deg >= 0) {
-    deg = deg - 1;
+  if (value1 < value2 && deg > 0) {
+    deg = deg - 15;
     myservo.write(deg);
   }
   delay(500);
+  Serial.print("Deg");
+  Serial.println(deg);
 }
 ```
