@@ -9,7 +9,7 @@ The goal of this project is to make a sustainable generator and power bank that 
 
   
 # Final Milestone
-Example: My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
+My final milestone is mounting my sun tracking solar panel onto a buoyant chassis alongside hydroelectric generators I integrated into the hull and wind turbines. I hope to increase the efficiency of the ship so as it is already propelled through the water by its base power source and motor, it is constantly generating electricity and either recharging the base power source or an additional one. This allows it to increase its possible distance, and can even allow it to forgo refueling if it wanted by simply waiting to recharge in the water. Additionally, if the ship was ever stranded, it would have the ability to sit idly in the water and fully recharge itself.
 
 [![Final Milestone]()](https://www.youtube.com/watch?v=3npqKn-eHq0){:target="_blank" rel="noopener"}
 
