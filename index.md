@@ -13,6 +13,8 @@ Example: My final milestone is the increased reliability and accuracy of my robo
 
 [![Final Milestone]()](https://www.youtube.com/watch?v=3npqKn-eHq0){:target="_blank" rel="noopener"}
 
+# Presentation
+
 # Second Milestone
 My second milestone was the completion of my solar panel circuit. The circuit consisted of a lithium battery that I connected to a power booster to boost the voltage of the solar panel from 3.3V to 5V, soldering a capacitor to the power booster that regulates the voltage between the three, and finally connecting the three to a USB/DC solar connector. On this connector, I soldered on the USB input and the connection from the power booster, before completing the circuit by striping down the connectors on the solar panel and attatching them to a DC input so it can connect to the power booster. 
 
