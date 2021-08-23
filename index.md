@@ -19,9 +19,10 @@ My final milestone is mounting my sun tracking solar panel onto a buoyant chassi
 # Second Milestone
 My second milestone was the completion of my solar panel circuit. The circuit consisted of a lithium battery that I connected to a power booster to boost the voltage of the solar panel from 3.3V to 5V, soldering a capacitor to the power booster that regulates the voltage between the three, and finally connecting the three to a USB/DC solar connector. On this connector, I soldered on the USB input and the connection from the power booster, before completing the circuit by striping down the connectors on the solar panel and attatching them to a DC input so it can connect to the power booster. 
 
+# CAD Designs
+![SPassemblycadpictures](https://user-images.githubusercontent.com/88206259/130507157-b4359650-5e02-4cf8-aaaf-4c0742b19f78.jpg)
 
-# First Milestone
-  
+# First Milestone  
 My first milestone was establishing the sun traking system for the solar panel. I began by posisitioning two photoresistors on opposite ends of a breadboard connected to an Arduino, and connecting a servo to that. I then wrote up some code in C++ that monitors the output values from both photoresistors so that if one rises above the other, the servo will activate until both values are equal again. This will result with the solar panel continuously tracking the sun.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3npqKn-eHq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
