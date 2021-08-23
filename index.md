@@ -14,6 +14,7 @@ My final milestone is mounting my sun tracking solar panel onto a buoyant chassi
 [![Final Milestone]()](https://www.youtube.com/watch?v=3npqKn-eHq0){:target="_blank" rel="noopener"}
 
 # Presentation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KJTtlT2HPKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Second Milestone
 My second milestone was the completion of my solar panel circuit. The circuit consisted of a lithium battery that I connected to a power booster to boost the voltage of the solar panel from 3.3V to 5V, soldering a capacitor to the power booster that regulates the voltage between the three, and finally connecting the three to a USB/DC solar connector. On this connector, I soldered on the USB input and the connection from the power booster, before completing the circuit by striping down the connectors on the solar panel and attatching them to a DC input so it can connect to the power booster. 
@@ -55,10 +56,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   value1 = analogRead(pResistor1);
   value2 = analogRead(pResistor2);
-    //Serial.print("pResistor1 ");
-    //Serial.println(value1);
-    //Serial.print("pResistor2 ");
-    //Serial.println(value2);
+    Serial.print("pResistor1 ");
+    Serial.println(value1);
+    Serial.print("pResistor2 ");
+    Serial.println(value2);
 
   if (value1 > value2 && deg < 180) {
     deg = deg + 15;
